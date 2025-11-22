@@ -1,4 +1,4 @@
-"""Training entrypoint for full LLM fine-tuning."""
+"""Training entrypoint."""
 
 from __future__ import annotations
 
@@ -71,3 +71,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

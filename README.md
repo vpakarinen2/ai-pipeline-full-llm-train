@@ -9,7 +9,7 @@
 ### Create Python Environment
 
 ```
-python -m venv .venv
+python3.11 -m venv .venv
 
 # Windows (PowerShell)
 .venv\Scripts\Activate.ps1

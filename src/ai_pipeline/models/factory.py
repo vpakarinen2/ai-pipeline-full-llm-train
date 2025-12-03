@@ -4,10 +4,9 @@ from __future__ import annotations
 
 import torch
 
+from ai_pipeline.config.schema import ModelConfig
 from transformers import AutoModelForCausalLM
 from typing import Optional
-
-from ai_pipeline.config.schema import ModelConfig
 
 
 DTYPE_MAP = {
